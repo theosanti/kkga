@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Site styles
+   ========================================================================== */
+
+body {
+  // -webkit-font-smoothing: antialiased;
+  font-family: 'Arimo', sans-serif;
+  background-color: #EBEDF3;
+  padding: 16px;
+}
+
+header {
+  margin-bottom: 32px;
+  h1 {
+    color: #2E2F33;
+  }
+  h2 {
+    color: #505359;
+  }
+  h1, h2 {
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  }
+  a {
+    color: #505359;
+  }
+}
+
+section {
+  margin: 0;
+  h3 {
+    margin: 0 0 8px 0;
+  }
+  a {
+  font-weight: 400;
+  color: #ABADB2;
+  text-decoration: none;
+  }
+}
