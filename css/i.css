@@ -395,3 +395,5 @@ section {
     font-weight: 400;
     color: #ABADB2;
     text-decoration: none; }
+    section a:hover {
+      color: #797B80; }
