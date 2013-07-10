@@ -13,15 +13,14 @@ header {
   h1 {
     color: #2E2F33;
     font-weight: 700;
-    text-transform: uppercase;
-    -webkit-font-smoothing: antialiased;
+    // -webkit-font-smoothing: antialiased;
   }
   h2 {
     color: #505359;
     font-weight: 400;
   }
   h1, h2 {
-    margin: 0 0 4px 0;
+    margin: 0 0 0 0;
   }
   a {
     color: #505359;
