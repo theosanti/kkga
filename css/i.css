@@ -379,7 +379,8 @@ body {
 header {
   margin-bottom: 32px; }
   header h1 {
-    color: #2E2F33; }
+    color: #2E2F33;
+    text-transform: uppercase; }
   header h2 {
     color: #505359; }
   header h1, header h2 {
