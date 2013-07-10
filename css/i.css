@@ -371,7 +371,6 @@ h3, .h3 {
    Site styles
    ========================================================================== */
 body {
-  -webkit-font-smoothing: antialiased;
   font-family: "freight-sans-pro", sans-serif;
   background-color: #fff;
   padding: 16px; }
@@ -380,11 +379,13 @@ header {
   margin-bottom: 32px; }
   header h1 {
     color: #2E2F33;
-    text-transform: uppercase; }
-  header h2 {
-    color: #505359; }
-  header h1, header h2 {
     font-weight: 700;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased; }
+  header h2 {
+    color: #505359;
+    font-weight: 400; }
+  header h1, header h2 {
     margin: 0 0 8px 0; }
   header a {
     color: #505359; }
