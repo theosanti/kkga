@@ -371,7 +371,8 @@ h3, .h3 {
    Site styles
    ========================================================================== */
 body {
-  font-family: "din-condensed-web", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-family: "freight-sans-pro", sans-serif;
   background-color: #EBEDF3;
   padding: 16px; }
 
