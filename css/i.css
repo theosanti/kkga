@@ -352,7 +352,7 @@ h1, .h1 {
   font-size: 64px; }
 
 h2, .h2 {
-  font-size: 48px; }
+  font-size: 32px; }
 
 /* ==========================================================================
    Media Queries
@@ -374,7 +374,7 @@ h2, .h2 {
    Site styles
    ========================================================================== */
 body {
-  font-family: "din-condensed-web", sans-serif;
+  font-family: "freight-sans-pro", sans-serif;
   background-color: white;
   padding: 64px; }
 
@@ -395,7 +395,7 @@ section {
     margin: 0 0 32px 0;
     text-transform: uppercase; }
   section ul {
-    font-size: 48px;
+    font-size: 32px;
     list-style: none;
     margin: 0;
     padding: 0; }
