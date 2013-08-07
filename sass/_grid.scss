@@ -5,11 +5,19 @@
    - Tablets
    ========================================================================== */
 
-   
+
 /* Mobile
    ========================================================================== */
 
-@media screen and ($breakpoint-1-max-width) {
+@media screen and (max-width: $breakpoint-1-max-width) {
+
+  body {
+    padding: 32px !important;
+  }
+
+  h1, h2, ul li {
+    font-size: $font-size-3;
+  }
 
 }
 

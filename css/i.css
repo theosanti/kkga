@@ -349,13 +349,10 @@ table {
 /* Headings
    ========================================================================== */
 h1, .h1 {
-  font-size: 22px; }
+  font-size: 64px; }
 
 h2, .h2 {
-  font-size: 18px; }
-
-h3, .h3 {
-  font-size: 18px; }
+  font-size: 48px; }
 
 /* ==========================================================================
    Media Queries
@@ -365,6 +362,12 @@ h3, .h3 {
    ========================================================================== */
 /* Mobile
    ========================================================================== */
+@media screen and (max-width: 480px) {
+  body {
+    padding: 32px !important; }
+
+  h1, h2, ul li {
+    font-size: 32px; } }
 /* Tablet
    ========================================================================== */
 /* ==========================================================================
@@ -372,31 +375,35 @@ h3, .h3 {
    ========================================================================== */
 body {
   font-family: "din-condensed-web", sans-serif;
-  background-color: #EBEDF3;
-  font-family: "freight-sans-pro", sans-serif;
-  background-color: #fff;
-  padding: 16px; }
+  background-color: white;
+  padding: 64px; }
 
 header {
-  margin-bottom: 32px; }
+  margin: 0 0 64px 0; }
   header h1 {
-    color: #2E2F33;
-    font-weight: 700; }
-  header h2 {
-    color: #505359;
-    font-weight: 400; }
-  header h1, header h2 {
-    margin: 0 0 0 0; }
+    color: #111111;
+    font-weight: 700;
+    margin: 0; }
   header a {
-    color: #505359; }
+    color: #1089f7;
+    text-decoration: none; }
 
 section {
-  margin: 0; }
-  section h3 {
-    margin: 0 0 4px 0; }
+  margin: 0 0 32px 0; }
+  section h2 {
+    color: #999999;
+    margin: 0 0 32px 0;
+    text-transform: uppercase; }
+  section ul {
+    font-size: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    section ul li {
+      margin: 0 0 16px 0; }
   section a {
     font-weight: 400;
-    color: #ABADB2;
+    color: #999999;
     text-decoration: none; }
     section a:hover {
-      color: #797B80; }
+      color: #1089f7; }
