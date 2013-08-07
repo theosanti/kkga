@@ -18,8 +18,11 @@ header {
     margin: 0;
   }
   a {
-    color: $blue;
+    color: $near-black;
     text-decoration: none;
+    &:hover {
+      color: $blue;
+    }
   }
 }
 

@@ -15,7 +15,7 @@
     padding: 32px !important;
   }
 
-  h1, h2, ul li {
+  h1 {
     font-size: $font-size-3;
   }
 
@@ -26,6 +26,10 @@
 /* Tablet
    ========================================================================== */
 
-@media ($breakpoint-2-min-width) and ($breakpoint-2-max-width) {
+@media (min-width: $breakpoint-2-min-width) and (max-width: $breakpoint-2-max-width) {
+
+    h1 {
+    font-size: $font-size-2;
+  }
 
 }

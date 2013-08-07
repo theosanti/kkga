@@ -351,9 +351,6 @@ table {
 h1, .h1 {
   font-size: 64px; }
 
-h2, .h2 {
-  font-size: 32px; }
-
 /* ==========================================================================
    Media Queries
 
@@ -366,10 +363,13 @@ h2, .h2 {
   body {
     padding: 32px !important; }
 
-  h1, h2, ul li {
+  h1 {
     font-size: 32px; } }
 /* Tablet
    ========================================================================== */
+@media (min-width: 480px) and (max-width: 1024px) {
+  h1 {
+    font-size: 48px; } }
 /* ==========================================================================
    Site styles
    ========================================================================== */
@@ -385,8 +385,10 @@ header {
     font-weight: 500;
     margin: 0; }
   header a {
-    color: #1089f7;
+    color: #111111;
     text-decoration: none; }
+    header a:hover {
+      color: #1089f7; }
 
 section {
   margin: 0 0 32px 0; }
