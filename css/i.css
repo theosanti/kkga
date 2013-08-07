@@ -361,7 +361,7 @@ h1, .h1 {
    ========================================================================== */
 @media screen and (max-width: 480px) {
   body {
-    padding: 32px !important; }
+    padding: 16px !important; }
 
   h1 {
     font-size: 32px; } }
@@ -374,9 +374,10 @@ h1, .h1 {
    Site styles
    ========================================================================== */
 body {
+  -webkit-font-smoothing: antialiased;
   font-family: "runda", sans-serif;
   background-color: white;
-  padding: 64px; }
+  padding: 32px; }
 
 header {
   margin: 0 0 64px 0; }
@@ -388,24 +389,4 @@ header {
     color: #111111;
     text-decoration: none; }
     header a:hover {
-      color: #1089f7; }
-
-section {
-  margin: 0 0 32px 0; }
-  section h2 {
-    color: #999999;
-    margin: 0 0 32px 0;
-    text-transform: uppercase; }
-  section ul {
-    font-size: 32px;
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-    section ul li {
-      margin: 0 0 16px 0; }
-  section a {
-    font-weight: 400;
-    color: #999999;
-    text-decoration: none; }
-    section a:hover {
       color: #1089f7; }
