@@ -360,9 +360,6 @@ h1, .h1 {
 /* Mobile
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  body {
-    padding: 16px !important; }
-
   h1 {
     font-size: 32px; } }
 /* Tablet
