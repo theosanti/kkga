@@ -371,15 +371,13 @@ h2, .h2 {
 /* Mobile
    ========================================================================== */
 @media screen and (max-width: 480px) {
-  h1 {
-    font-size: 32px;
-    margin: 0 0 24px 0 !important; } }
+  body {
+    padding: 2rem; } }
 /* Tablet
    ========================================================================== */
 @media (min-width: 480px) and (max-width: 1024px) {
-  h1 {
-    font-size: 48px;
-    margin: 0 0 24px 0 !important; } }
+  body {
+    padding: 4rem; } }
 /* ==========================================================================
    Site styles
    ========================================================================== */
@@ -387,7 +385,6 @@ body {
   font-family: "futura-pt", sans-serif;
   background-color: white;
   color: #171819;
-  line-height: 1.25;
   padding: 4rem;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
