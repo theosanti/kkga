@@ -11,6 +11,11 @@ body {
   text-transform: uppercase;
 }
 
+h1,
+p {
+  font-size: $font-size-1;
+}
+
 a {
   color: $gray-medium;
   text-decoration: none;

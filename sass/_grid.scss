@@ -12,12 +12,7 @@
 @media screen and (max-width: $breakpoint-1-max-width) {
 
   body {
-    padding: 2rem;
-  }
-
-  h1,
-  p {
-    font-size: $font-size-1;
+    padding: 1rem;
   }
 
 }
@@ -31,11 +26,6 @@
 
   body {
     padding: 4rem;
-  }
-
-  h1,
-  p {
-    font-size: $font-size-1;
   }
 
 }
