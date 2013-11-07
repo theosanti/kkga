@@ -392,6 +392,7 @@ p {
   color: #171819; }
 
 a {
+  font-style: italic;
   color: #999999;
   text-decoration: none; }
   a:hover {
