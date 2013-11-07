@@ -388,6 +388,9 @@ h1,
 p {
   font-size: 22px; }
 
+.black {
+  color: #171819; }
+
 a {
   color: #999999;
   text-decoration: none; }
