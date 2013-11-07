@@ -387,15 +387,16 @@ h1, .h1 {
 body {
   font-family: "futura-pt", sans-serif;
   background-color: white;
-  color: #171819;
+  color: #999999;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: uppercase; }
 
 a {
-  color: #171819;
+  color: #999999;
   text-decoration: none; }
   a:hover {
+    color: #222222;
     text-decoration: underline; }
 
 header,

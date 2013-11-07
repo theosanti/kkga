@@ -5,16 +5,17 @@
 body {
   font-family: "futura-pt", sans-serif;
   background-color: $white;
-  color: $black;
+  color: $gray-medium;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
 }
 
 a {
-  color: $black;
+  color: $gray-medium;
   text-decoration: none;
   &:hover {
+    color: $gray-dark;
     text-decoration: underline;
   }
 }
