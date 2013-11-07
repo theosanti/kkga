@@ -392,10 +392,6 @@ body {
   text-rendering: optimizeLegibility;
   text-transform: uppercase; }
 
-h1,
-p {
-  font-size: 22px; }
-
 a {
   color: #999999;
   text-decoration: none; }
