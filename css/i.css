@@ -374,7 +374,7 @@ h1, .h1 {
     font-size: 18px; } }
 /* Tablet
    ========================================================================== */
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   body {
     padding: 4rem; }
 
@@ -387,6 +387,7 @@ h1, .h1 {
 body {
   font-family: "futura-pt", sans-serif;
   background-color: white;
+  padding: 6rem;
   color: #999999;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -396,8 +397,7 @@ a {
   color: #999999;
   text-decoration: none; }
   a:hover {
-    color: #222222;
-    text-decoration: underline; }
+    color: #222222; }
 
 header,
 section {

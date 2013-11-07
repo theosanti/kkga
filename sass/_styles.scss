@@ -5,6 +5,7 @@
 body {
   font-family: "futura-pt", sans-serif;
   background-color: $white;
+  padding: 6rem;
   color: $gray-medium;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -16,7 +17,7 @@ a {
   text-decoration: none;
   &:hover {
     color: $gray-dark;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 }
 
