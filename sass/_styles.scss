@@ -3,23 +3,25 @@
    ========================================================================== */
 
 body {
-  -webkit-font-smoothing: antialiased;
-  font-family: "runda", sans-serif;
+  font-family: "futura", sans-serif;
   background-color: $white;
-  padding: 32px;
+  color: $black;
+  line-height: 1.65;
+  padding: 4rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
 }
 
-header {
-  margin: 0;
-  h1 {
-    margin: 0 0 32px 0;
-    font-weight: 500;
+a {
+  color: $black;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
-  a {
-    color: $gray-dark;
-    text-decoration: none;
-    &:hover {
-      color: $blue;
-    }
-  }
+}
+
+header,
+section {
+  margin-bottom: 2rem;
 }

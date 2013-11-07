@@ -1,7 +1,7 @@
 /* ==========================================================================
    Imports
    ========================================================================== */
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -344,12 +344,22 @@ table {
    - Copy
    - Headings
    ========================================================================== */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
 /* Copy
    ========================================================================== */
+p {
+  font-size: 22px;
+  font-weight: 300; }
+
 /* Headings
    ========================================================================== */
 h1, .h1 {
-  font-size: 64px; }
+  font-size: 22px; }
+
+h2, .h2 {
+  font-size: 16px; }
 
 /* ==========================================================================
    Media Queries
@@ -373,18 +383,21 @@ h1, .h1 {
    Site styles
    ========================================================================== */
 body {
-  -webkit-font-smoothing: antialiased;
-  font-family: "runda", sans-serif;
+  font-family: "futura", sans-serif;
   background-color: white;
-  padding: 32px; }
+  color: #171819;
+  line-height: 1.65;
+  padding: 4rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase; }
 
-header {
-  margin: 0; }
-  header h1 {
-    margin: 0 0 32px 0;
-    font-weight: 500; }
-  header a {
-    color: #222222;
-    text-decoration: none; }
-    header a:hover {
-      color: #1089f7; }
+a {
+  color: #171819;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+header,
+section {
+  margin-bottom: 2rem; }
