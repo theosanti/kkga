@@ -22,8 +22,9 @@ header {
 
 
 .links {
-  list-style: none;
   display: flex;
+  margin: 0;
+  list-style: none;
 }
 .links li {
   padding: .125rem .25rem;
