@@ -15,11 +15,16 @@ body {
   background-color: #fff;
 }
 
+
+header {
+  text-align: center;
+}
+
+
 .links {
   list-style: none;
   display: flex;
-
-  li {
-    padding: .125rem .25rem;
-  }
+}
+.links li {
+  padding: .125rem .25rem;
 }
