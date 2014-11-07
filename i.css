@@ -35,10 +35,11 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 header p {
+  font-size: 1.125rem;
   color: #888;
 }
 
@@ -52,9 +53,9 @@ header p {
   padding: 0;
   max-width: 14rem;
   list-style: none;
-  font-size: .75rem;
+  font-size: .875rem;
   color: #888;
 }
 .links li {
-  padding: .125rem .5rem;
+  padding: .125rem .375rem;
 }
