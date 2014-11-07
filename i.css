@@ -9,9 +9,13 @@ body {
 
 body {
   display: flex;
+  display: -webkit-flex;
   flex-direction: column;
+  -webkit-flex-direction: column;
   justify-content: center;
+  -webkit-justify-content: center;
   align-items: center;
+  -webkit-align-items: center;
   padding: 1rem;
   font-family: 'Inconsolata', Menlo, monospace;
   font-size: 1rem;
@@ -46,10 +50,13 @@ header p {
 
 .links {
   display: flex;
+  display: -webkit-flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /*margin-top: 1.5rem;*/
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  -webkit-flex-wrap: wrap;
   padding: 0;
   max-width: 14rem;
   list-style: none;
