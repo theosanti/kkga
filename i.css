@@ -10,8 +10,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: monospace;
-  font-size: 1.125rem;
+  font-family: 'PT Mono', monospace;
+  font-size: 1rem;
   color: #333;
   background-color: #fff;
 }
@@ -22,7 +22,7 @@ header {
 }
 header h1 {
   margin: 0;
-  font-size: 1em;
+  font-size: 1.125rem;
 }
 header p {
   opacity: .7;
