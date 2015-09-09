@@ -14,10 +14,6 @@ body {
   font-weight: 400;
   color: #aaa;
   background-color: #222;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 header {
