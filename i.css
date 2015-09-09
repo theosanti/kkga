@@ -37,26 +37,16 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: #333;
   color: #fff;
 }
 
 .links {
   padding: 0;
-  margin: 1em 0 0 0;
+  margin: 1.25em 0 0 0;
   list-style: none;
 }
 
 .links-link {
   display: inline-block;
   margin-right: 0.5rem;
-}
-
-.links-link a {
-  display: block;
-}
-
-.links-link a:hover {
-  background-color: initial;
-  transform: scale(1.5);
 }
