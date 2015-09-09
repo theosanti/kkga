@@ -10,37 +10,57 @@ body {
 body {
   padding: 2rem;
   font-family: 'Roboto Mono', Menlo, monospace;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  color: #333;
-  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #aaa;
+  background-color: #222;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.myface {
+  font-size: 5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  color: #fff;
+}
+
+p {
+  margin: 0;
+  font-weight: normal;
 }
 
 a {
   color: currentColor;
-  border-radius: 2px;
   text-decoration: none;
 }
 a:hover {
   background-color: #333;
   color: #fff;
-  text-decoration: none;
-}
-
-header {
-  margin-bottom: 4rem;
-}
-header h1 {
-  margin: 0;
-  font-size: inherit;
-  font-weight: 700;
-}
-header p {
-  margin: 0;
 }
 
 .links {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.links-link {
+  display: inline-block;
+  padding: 0 0.125rem;
+}
+
+.links-link a {
+  display: block;
+}
+
+.links-link a:hover {
+  background-color: initial;
+  transform: scale(1.5);
 }
