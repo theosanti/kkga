@@ -9,7 +9,7 @@ body {
 
 body {
   padding: 2rem;
-  font-family: 'Roboto Mono', Menlo, monospace;
+  font-family: -apple-system, sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
   color: #aaa;
