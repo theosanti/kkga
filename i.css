@@ -10,7 +10,7 @@ body {
 body {
   padding: 2rem;
   font-family: 'Roboto Mono', Menlo, monospace;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #aaa;
   background-color: #222;
@@ -22,10 +22,6 @@ body {
 
 header {
   margin: 0 0 1em 0;
-}
-
-.myface {
-  font-size: 5rem;
 }
 
 h1 {
