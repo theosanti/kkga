@@ -49,7 +49,7 @@ a:hover {
 
 .links-link {
   display: inline-block;
-  padding: 0 0.25rem;
+  margin-right: 0.5rem;
 }
 
 .links-link a {
