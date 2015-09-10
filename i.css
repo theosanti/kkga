@@ -45,9 +45,9 @@ a:hover {
 
 .links {
   padding: 0;
-  margin: 1em 0 0 0;
+  margin:  0 0.75rem;
   list-style: none;
-  /*font-size: 1.375rem;*/
+  font-size: 1.75rem;
 }
 
 .links-link {
