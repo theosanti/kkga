@@ -45,14 +45,14 @@ a:hover {
 
 .links {
   padding: 0;
-  margin:  0 0.75rem;
+  margin: 1em 0 0 0;
   list-style: none;
   font-size: 1.75rem;
 }
 
 .links-link {
   display: inline-block;
-  margin-right: 0.75em;
+  margin: 0 0.5em;
 }
 
 .links-link a {
