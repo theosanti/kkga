@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 4rem;
+  padding: 2rem;
   font-family: -apple-system, sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
