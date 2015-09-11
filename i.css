@@ -15,35 +15,11 @@ body {
   background-color: #222;
 }
 
-.about,
-.email,
-.links {
-  margin: 1em 0 0 0;
-}
-
-.header:after {
-  content: '';
-  height: 1px;
-  width: 6em;
-  background-color: #fff;
-  opacity: 0.25;
-}
-
-.myface {
-  display: block;
-  margin-bottom: 1em;
-  font-size: 1.75rem;
-}
-
-h1 {
+h1,
+p {
   margin: 0;
   font-size: inherit;
   font-weight: inherit;
-  color: #fff;
-}
-
-p {
-  margin: 0;
 }
 
 a {
@@ -52,6 +28,22 @@ a {
 }
 a:hover {
   color: #fff;
+}
+
+.header {
+  position: relative;
+  margin-bottom: 1em;
+  color: #fff;
+}
+.myface {
+  position: absolute;
+  font-size: 1.75rem;
+  top: 0;
+  left: -200%;
+}
+
+.info {
+  font-size: 1.25rem;
 }
 
 .links {
