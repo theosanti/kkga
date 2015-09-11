@@ -12,7 +12,7 @@ body {
   justify-content: center;
   padding: 1.5rem;
   font-family: 'roboto mono', monospace;
-  font-size: 1.125rem;
+  font-size: 2rem;
   line-height: 1.5;
   color: #aaa;
   background-color: #222;
@@ -34,7 +34,7 @@ a:hover {
 }
 
 .header {
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   color: #fff;
 }
 .myface {
@@ -44,12 +44,8 @@ a:hover {
   left: 1.5rem;
 }
 
-.info {
-  /*font-size: 1.125rem;*/
-}
-
 .info > * {
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 .links {
