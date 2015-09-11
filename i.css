@@ -7,14 +7,10 @@ body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   padding: 2rem;
   font-family: -apple-system, sans-serif;
   font-size: 1.375rem;
-  font-weight: 400;
+  font-weight: 300;
   color: #aaa;
   background-color: #222;
 }
@@ -28,13 +24,12 @@ body {
 h1 {
   margin: 0;
   font-size: inherit;
-  font-weight: 700;
+  font-weight: inherit;
   color: #fff;
 }
 
 p {
   margin: 0;
-  font-weight: normal;
 }
 
 a {
@@ -53,7 +48,7 @@ a:hover {
 
 .links-link {
   display: inline-block;
-  margin: 0 0.5em;
+  margin-right: 1em;
 }
 
 .links-link a {
