@@ -47,12 +47,11 @@ a:hover {
 }
 
 .info > * {
-  margin-top: .75em;
+  margin-top: .5em;
 }
 
 .links {
   padding: 0;
-  margin: 0;
   list-style: none;
 }
 
