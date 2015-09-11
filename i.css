@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  padding: 2rem;
+  padding: 2rem 4rem;
   font-family: -apple-system, sans-serif;
   font-size: 1.375rem;
   font-weight: 300;
@@ -37,17 +37,22 @@ a:hover {
 }
 .myface {
   position: absolute;
-  font-size: 1.75rem;
-  top: 0;
-  left: -200%;
+  font-size: 2rem;
+  top: -.375rem;
+  left: -2.5rem;
 }
 
 .info {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+}
+
+.info > * {
+  margin-top: .75em;
 }
 
 .links {
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
