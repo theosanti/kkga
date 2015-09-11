@@ -16,26 +16,65 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="i.css">
+    
+    <style>
+      * { box-sizing: border-box; }
+  
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.5rem;
+        font-size: 1.125rem;
+        font-family: -apple-system, -system, sans-serif;
+        line-height: 1.5;
+        color: #222;
+        background-color: #fff;
+      }
+      
+      h1 {
+        font-size: inherit;
+      }
+
+      
+      a {
+        color: currentColor;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #FF504C;
+      }
+      
+      .face {
+        position: absolute;
+        font-size: 2rem;
+        top: 1.5rem;
+        left: 1.5rem;
+      }
+    </style>
   </head>
+  
   <body>
     
-    <span class="face">😑</span> 
+    <div class="face">😑</div> 
+    <h1>Gadzhi Kharkharov, ~designer</h1>
 
-    <header class="header">
-      <h1>Gadzhi Kharkharov, ~designer</h1>
-    </header>
-    
-    <p class="about">
+    <p>
       Currently&nbsp;freelance. Previously&nbsp;at&nbsp;<a href="http://stampsy.com">Stampsy</a>.
     </p>
 
-    <ul class="links">
-      <li class="links-link"><a href="mailto:kkga@me.com" title="Email">kkga@me.com</a>&nbsp;/</li>
-      <li class="links-link"><a href="http://twitter.com/kkga_" title="Twitter">twtr</a>&nbsp;/</li>
-      <li class="links-link"><a href="http://github.com/kkga" title="GitHub">gthb</a>&nbsp;/</li>
-      <li class="links-link"><a href="http://dribbble.com/gadzhi" title="Dribbble">drbl</a></li>
-    </ul>
+    <p>
+      <a href="mailto:kkga@me.com" title="Email">kkga@me.com</a>&nbsp;/
+      <a href="http://twitter.com/kkga_" title="Twitter">twtr</a>&nbsp;/
+      <a href="http://github.com/kkga" title="GitHub">gthb</a>&nbsp;/
+      <a href="http://dribbble.com/gadzhi" title="Dribbble">drbl</a>
+    <p>
 
   </body>
 </html>
