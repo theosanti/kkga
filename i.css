@@ -11,8 +11,9 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem;
+  font-size: .875rem;
   font-family: 'roboto mono', monospace;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #222;
   background-color: #fff;
 }
@@ -33,20 +34,22 @@ a:hover {
 }
 
 .header {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 .myface {
   position: absolute;
   font-size: 2rem;
   top: 1.5rem;
   left: 1.5rem;
+  user-select: none;
 }
 
 .about {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .links {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
