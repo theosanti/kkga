@@ -43,17 +43,9 @@ a:hover {
 .links {
   padding: 0;
   list-style: none;
-  font-size: 1.5rem;
 }
 
 .links-link {
   display: inline-block;
-  margin-right: 0.75em;
-}
-
-.links-link a {
-  display: block;
-}
-.links-link a:hover {
-  transform: scale(1.25);
+  margin-top: 0.125em;
 }
